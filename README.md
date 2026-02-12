@@ -1,4 +1,4 @@
-# Project-Program-Flow-Manipulation
+# Project: Program Flow Manipulation
 
 ## Description 
 
@@ -61,7 +61,7 @@ The first phase required overwriting the return address that the program uses af
 
 1. Determining the memory address of `touch1()` by setting a breakpoint at `getbuf` and running _ctarget_ in gdb, and then using the `disas` command:
 
-   <img width="1235" height="374" alt="image" src="https://github.com/user-attachments/assets/a0111ecb-3865-41a3-9f9b-783f704d8f00" />
+   <img width="1024" height="310" alt="image" src="https://github.com/user-attachments/assets/a0111ecb-3865-41a3-9f9b-783f704d8f00" />
 
 3. Placing the bytes of the memory address in reverse form (little endian) in a .txt file in a format that is readable by hex2raw
 
@@ -75,7 +75,7 @@ The first phase required overwriting the return address that the program uses af
 
 Diagram for Phase 1
 
-<img width="972" height="480" alt="image" src="https://github.com/user-attachments/assets/b86733f1-6cc5-4866-bfd8-85ef04118b06" />
+<img width="1024" height="506" alt="image" src="https://github.com/user-attachments/assets/b86733f1-6cc5-4866-bfd8-85ef04118b06" />
 
 ## Phase 2 & 3
 The next two phases followed the same idea, but this time it was required to pass a hex code from `cookie.txt` as an argument to be checked by the target function. Here, byte encodings of assembly instructions had to be injected to achieve this result.
@@ -100,7 +100,7 @@ exit(0);
 
 Diagram for Phase 2
 
-
+<img width="1024" height="506" alt="image" src="https://github.com/user-attachments/assets/cd2fabbd-feac-40f0-b93d-964731749cee" />
 
 
 
