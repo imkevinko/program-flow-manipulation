@@ -4,7 +4,7 @@
 
 The project explores program exploitation and manipulation techniques, specifically those dealing with buffer overflow. Completing the project required knowledge in _gdb_, assembly language, as well as use of utilities such as _hex2raw_. 
 
-When a program does not have security measures in place, like a stack canary or a shadow stack, it is very vulnerable to exploits. One of those exploits is writing over the expected length of a string that is inputted by the user: buffer overflow. When this happens, the buffer can be curated in a way that influences the program's flow, by overwriting return addresses stored on the stack, for example. This is the focus of this project.
+When a program does not have security measures in place, like a stack canary or a shadow stack, it is very vulnerable to exploits. One of those exploits is writing over the expected length of a string that is inputted by the user: buffer overflow. When this happens, the buffer can be curated in a way that influences the program's flow by overwriting return addresses stored on the stack. This is the focus of this project.
 
 The project was completed as part of CS 261: Machine Organization course at University Of Illinois Chicago, in Fall 2025. The author of the project is Adam T. Koehler, PhD, the instructor of the course.  
 
